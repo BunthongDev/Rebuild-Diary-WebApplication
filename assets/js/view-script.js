@@ -6,6 +6,27 @@ document.addEventListener("DOMContentLoaded", function () {
   const urlParams = new URLSearchParams(window.location.search);
   const entryIndex = urlParams.get("index");
 
+  const header = document.getElementById("header");
+
+  // load preferences background color and font family
+  function loadPreferences() {
+    const savedColor = localStorage.getItem("backgroundColor");
+    const savedFont = localStorage.getItem("fontFamily");
+
+    if (savedColor) {
+      document.body.style.backgroundColor = savedColor;
+      header.style.backgroundColor = savedColor;
+    }
+
+    if (savedFont) {
+      document.body.style.fontFamily = savedFont;
+      header.style.fontFamily = savedFont;
+    }
+  }
+  loadPreferences();
+
+
+  // view entry delete or edit form
   if (entryIndex !== null) {
     const entries = JSON.parse(localStorage.getItem("diaryEntries")) || [];
     const entry = entries[entryIndex];
@@ -32,4 +53,5 @@ document.addEventListener("DOMContentLoaded", function () {
   backToHomeButton.addEventListener("click", function () {
     window.location.href = "../index.html";
   });
+
 });

@@ -13,6 +13,7 @@ body {
     text-align: center;
     padding: 1em 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-bottom: dashed 2px #000000;
   }
   
   header h1 {
@@ -77,6 +78,60 @@ body {
   .entry p {
     margin: 0.5em 0;
   }
+
+ #welcomeSection {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border: dashed 2px #4CAF50;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#welcomeSection #greeting {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    /* color: #4CAF50; */
+    text-shadow: 20px 12px 0.2px rgba(66, 66, 66, 0.1);
+    border: dashed 2px #4CAF50;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+    
+
+}
+
+#welcomeSection h2 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#welcomeSection img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+#welcomeSection img:hover {
+    transform: scale(1.1);
+}
+
+/* @media (max-width: 600px) {
+    #welcomeSection {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    #welcomeSection h2 {
+        font-size: 1em;
+    } */
   
   /* Add/Edit Page */
   form {
@@ -150,4 +205,3 @@ body {
       padding: 1em;
     }
   }
-  

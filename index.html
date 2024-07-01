@@ -7,17 +7,37 @@
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-  <header>
+  <header id="header">
     <h1>My Diary</h1>
     <button id="addEntry">Add New Entry</button>
-  </header>
-  <!-- greeting to the user  -->
-  <section id="welcomeSection">
+    <!-- start color picker theme -->
     <div>
-    <h1>Home Page displayeasfd</h1>
-  </div>
+      <label for="colorPicker">Choose Background Color:</label>
+      <input type="color" id="colorPicker">
+    </div>
+    
+    <!-- start font picker choice -->
+    <div>
+      <label for="fontSelector">Choose Font Style:</label>
+      <select id="fontSelector">
+        <option value="Arial, sans-serif">Arial</option>
+        <option value="'Times New Roman', serif">Times New Roman</option>
+        <option value="'Courier New', monospace">Courier New</option>
+        <option value="'Georgia', serif">Georgia</option>
+        <option value="'Verdana', sans-serif">Verdana</option>
+      </select>
+    </div>
 
-  </section>
+  </header>
+
+  <!-- greeting to the user  -->  
+  <section id="welcomeSection">
+    <div id="greeting"></div>
+    <div id="greeting">Welcome Back to Your Diary</div>
+        <h2>📝 Turn your special moments into a diary with hand-picked themes and fonts</h2>
+        <img src="../assets/images/diary-web-img.png" alt="Diary Image">
+    </section>
+
 
   
   <main id="entryList">
