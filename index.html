@@ -4,45 +4,117 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Diary</title>
+  <!-- style CSS -->
   <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- logo on tab bar -->
+  <link rel="icon" href="../rornbunthong-diary-web/assets/images/diary-webapp-logo.jpg" type="logo image">
 </head>
 <body>
   <header id="header">
-    <h1>My Diary</h1>
+    <h1>Diary Aapplication</h1>
     <button id="addEntry">Add New Entry</button>
     <!-- start color picker theme -->
     <div>
-      <label for="colorPicker">Choose Background Color:</label>
+      <label for="colorPicker">Change Background Color:</label>
       <input type="color" id="colorPicker">
     </div>
+    <!-- end color picker theme -->
+
     
     <!-- start font picker choice -->
     <div>
-      <label for="fontSelector">Choose Font Style:</label>
+      <label for="fontSelector">Change Font Style:</label>
       <select id="fontSelector">
+        <!-- English font -->
+        <option value="'Comic Sans MS', cursive">Comic Sans MS</option>
+        <option value="'Indie Flower', cursive">Indie Flower</option>
         <option value="Arial, sans-serif">Arial</option>
         <option value="'Times New Roman', serif">Times New Roman</option>
         <option value="'Courier New', monospace">Courier New</option>
         <option value="'Georgia', serif">Georgia</option>
         <option value="'Verdana', sans-serif">Verdana</option>
+        <option value="Open Sans, sans-serif">Open Sans</option>
+        <option value="Roboto, sans-serif">Roboto</option>
+        <option value="Lora, serif">Lora</option>
+        <option value="Merriweather, serif">Merriweather</option>
+        <option value="PT Mono, monospace">PT Mono</option>
+        <!-- Khmer font -->
+        <option value="'Khmer OS', sans-serif">Khmer OS</option>
+        <option value="'Battambang', cursive">Battambang cursive</option>
+        <option value="'Siemreap', serif">Siemreap</option>
+        <option value="'Nokora', sans-serif">Nokora</option>
+        <option value="'Moul', cursive">Moul</option>
+        <option value="'Bokor', cursive">Bokor</option>
+        <option value="'Kdam Thmor', cursive">Kdam Thmor</option>
+        <option value="'Koulen', cursive">Koulen</option>
+        <option value="'Suwannaphum', cursive">Suwannaphum</option>
+        <option value="'Chenla', sans-serif">Chenla</option>
+        <option value="'Bayon', cursive">Bayon</option>
+        <option value="'Content', sans-serif">Content</option>
+        <option value="'Dangrek', sans-serif">Dangrek</option>
+        <option value="'Freehand', cursive">Freehand</option>
+        <option value="'Inria Serif', serif">Inria Serif</option>
+        <option value="'Battambang', sans-serif">Battambang</option>
+        <option value="'Suwannaphum', sans-serif">Suwannaphum</option>
+        <option value="'Odor Mean Chey', sans-serif">Odor Mean Chey</option>
+        <option value="'Siemreap', cursive">Siemreap</option>
+        <option value="'Angkor', sans-serif">Angkor</option>
+        <option value="'Bayon', sans-serif">Bayon</option>
+        <option value="'Chela One', cursive">Chela One</option>
+        <option value="'Content', cursive">Content</option>
+        <option value="'Hanuman', serif">Hanuman</option>
+        <option value="'Battambang', serif">Battambang serif</option>
+
+
       </select>
     </div>
+    <!-- end font picker choice -->
+
 
   </header>
 
-  <!-- greeting to the user  -->  
+  <!-- start greeting to the user at homepage -->  
   <section id="welcomeSection">
     <div id="greeting"></div>
-    <div id="greeting">Welcome Back to Your Diary</div>
+    <div id="greeting">Welcome Back to Your Diary 🥰</div>
         <h2>📝 Turn your special moments into a diary with hand-picked themes and fonts</h2>
-        <img src="../Rebuild-Diary-WebApplication/assets/images/diary-web-img.png" alt="Diary Image">
+        <img src="../rornbunthong-diary-web/assets/images/diary-web-img.png" alt="Diary Image">
     </section>
 
+  <!-- end greeting to the user at homepage -->  
 
-  
+
+
+  <!-- start card entry  -->
   <main id="entryList">
-    <!-- entries will be displayed here when the enry was added -->
+    <!-- entries will be displayed here when the entry was added -->
+    
+    <!-- future feature -->
+    <!-- <section id="welcomeSectionHomePage"> -->
+      <!-- <div id="greetingHomePage"></div> -->
+      <!-- <div id="greetingHomePage">Welcome Back to Your Diary <span>🥰</span></div>
+          <h2>📝 Turn your special moments into a diary with hand-picked themes and fonts</h2>
+          <img src="../rornbunthong-diary-web/assets/images/Notes-bro.png" alt="Diary Image">
+      </section> -->
+  
+  
   </main>
+  <!-- end card entry  -->
+   
+
+  <footer class="custom-footer" >
+    <div class="footer-content">
+        <p>Create by BunthongRorn</p>
+        <button class="buy-me-button">
+            <a href="https://pay.ababank.com/37NoDrHgA8chYnyK8" target="_blank">
+                <span class="text">Buy me Green Tea 🍵</span>
+            </a>
+        </button>
+    </div>
+</footer>
+
+
+
   <script src="./assets/js/script.js"></script>
 </body>
 </html>
