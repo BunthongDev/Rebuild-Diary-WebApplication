@@ -1,6 +1,6 @@
 /* Global Styles */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f9f9f9;
@@ -94,7 +94,6 @@ body {
     margin-bottom: 10px;
     font-size: 30px;
     font-weight: bold;
-    /* color: #4CAF50; */
     text-shadow: 20px 12px 0.2px rgba(66, 66, 66, 0.1);
     border: dashed 2px #4CAF50;
     padding: 10px;
@@ -205,3 +204,114 @@ body {
       padding: 1em;
     }
   }
+
+
+  
+
+  /* footer */
+  .custom-footer {
+    padding: 20px;
+    text-align: center;
+    border-top: 2px dashed #000000; 
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+.footer-content p {
+  /* display: flex; */
+    font-size: 18px;
+    color: #ffffff; 
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    /* margin-top: 600px; */
+}
+
+.buy-me-button {
+    margin-top: 10px;
+    background-color: #28a745;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+}
+.buy-me-button:hover {
+  margin-top: 10px;
+  color:#28a745
+  
+}
+
+.buy-me-button a {
+    color:#28a745;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+.buy-me-button a:hover{
+    color:#28a745;
+    
+}
+
+.buy-me-button:hover {
+    background-color: #ffffff;
+    color: #28a745;
+}
+
+.text{
+  color:#ffffff;
+}
+
+.text:hover{
+  color: #28a745;
+}
+
+/* this style is for future feature */
+/* display greeting card   */
+/* #welcomeSectionHomePage {
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  margin: 20px;
+  border: dashed 2px #4CAF50;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+
+}
+
+#welcomeSectionHomePage #greetingHomePage {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 20px 12px 0.2px rgba(66, 66, 66, 0.1);
+  border: dashed 2px #4CAF50;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+  
+
+}
+
+#welcomeSectionHomePage h2 {
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#welcomeSectionHomePage img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+#welcomeSectionHomePage img:hover {
+  transform: scale(1.1);
+} */
+
+
+
