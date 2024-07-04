@@ -18,7 +18,10 @@ body {
   
   header h1 {
     margin: 0;
+    text-shadow: #000000 2px 1px 4px;
+
   }
+
   
   header button {
     background-color: white;
@@ -226,6 +229,10 @@ body {
     font-weight: bold;
     /* margin-top: 600px; */
 }
+#footer-text{
+text-shadow: #000000 2px 1px 4px;
+  
+}
 
 .buy-me-button {
     margin-top: 10px;
@@ -234,6 +241,7 @@ body {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
+    border: solid 2px #ffffff;
 
 }
 .buy-me-button:hover {
