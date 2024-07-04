@@ -18,8 +18,10 @@ body {
   
   header h1 {
     margin: 0;
-    text-shadow: #000000 2px 1px 4px;
-
+    color: white;   
+            font-size: 50px;   
+            -webkit-text-stroke-width: 2px;   
+            -webkit-text-stroke-color: black; 
   }
 
   
@@ -230,9 +232,19 @@ body {
     /* margin-top: 600px; */
 }
 #footer-text{
-text-shadow: #000000 2px 1px 4px;
+/* text-shadow: #000000 2px 1px 4px; */
+-webkit-text-stroke-color: black; 
+-webkit-text-stroke-width: 1px; 
+font-size: 25px;
+color: white;
+margin-bottom: 10px;
   
 }
+
+color: white;   
+            font-size: 50px;   
+            -webkit-text-stroke-width: 2px;   
+            -webkit-text-stroke-color: red; 
 
 .buy-me-button {
     margin-top: 10px;
